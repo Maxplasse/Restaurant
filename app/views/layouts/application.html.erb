@@ -11,6 +11,14 @@
   </head>
 
   <body>
-    <%= yield %>
+    <nav class="navbar fixed-top navbar-light bg-light">
+      <div class="container-fluid">
+        <%= link_to "La Fourchette", restaurants_path, class: "navbar-brand" %>
+        <%= link_to "New Restaurant", new_restaurant_path, class: "navbar-brand" %>
+      </div>
+    </nav>
+      <div style="margin-top: 120px">
+        <%= yield %>
+      </div>
   </body>
 </html>

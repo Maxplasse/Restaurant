@@ -1,0 +1,40 @@
+// Graphical variables
+@import "config/fonts";
+@import "config/colors";
+@import "config/bootstrap_variables";
+
+// External libraries
+@import "bootstrap/scss/bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+// Your CSS partials
+@import "components/index";
+@import "pages/index";
+
+.box {
+  border-radius: 4px;
+  box-shadow: 4px 3px 12px rgba(0, 0, 0, 0.164);
+  margin: 30px 50px 50px 50px;
+  padding: 25px;
+  line-height: 1.8;
+  text-decoration: none;
+}
+
+.box a {
+  text-decoration: none;
+  color: #503B31;
+}
+
+.box:hover {
+  box-shadow: 4px 3px 12px rgba(0, 0, 0, 0.464);
+}
+
+.navbar {
+  background-color: #D7907B;
+  padding: 15px;
+}
+
+.container-fluid {
+  background-color: #D7907B;
+}
